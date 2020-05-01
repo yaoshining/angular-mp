@@ -1,0 +1,23 @@
+{
+  "name": "@angularmp/build-weapp",
+  "version": "1.0.0",
+  "description": "Angular cli builder for wechat miniprogram.",
+  "builders": "builders.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "miniprogram",
+    "wechat"
+  ],
+  "author": "yaoshining",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.901.4",
+    "@angular-devkit/build-webpack": "^0.901.4",
+    "rxjs": "~6.5.4",
+    "webpack": "4.42.0"
+  }
+}

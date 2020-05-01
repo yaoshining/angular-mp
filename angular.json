@@ -74,6 +74,15 @@
             }
           }
         },
+        "buildMp": {
+          "builder": "./build-weapp:miniprogram"
+        },
+        "serveMp": {
+          "builder": "./build-weapp:dev-serve",
+          "options": {
+            "mpTarget": "angular-mp:buildMp"
+          }
+        },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
@@ -123,6 +132,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-mp"
+    }
+  },
+  "defaultProject": "angular-mp",
+  "cli": {
+    "analytics": "d25eec0b-04cf-41e7-bbf9-88f3ec46eb09"
+  }
 }
