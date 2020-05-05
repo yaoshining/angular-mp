@@ -75,7 +75,7 @@
           }
         },
         "buildMp": {
-          "builder": "./build-weapp:miniprogram"
+          "builder": "./build-weapp:weapp"
         },
         "serveMp": {
           "builder": "./build-weapp:dev-serve",

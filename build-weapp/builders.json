@@ -4,6 +4,11 @@
     "dev-serve": {
       "implementation": "./src/dev-serve",
       "schema": "./src/dev-serve/schema.json",
+      "description": "Serve for develop a wechat miniprogram app."
+    },
+    "weapp": {
+      "implementation": "./src/weapp",
+      "schema": "./src/weapp/schema.json",
       "description": "Build a wechat miniprogram app."
     }
   }
